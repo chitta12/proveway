@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle & Save</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section class="outer">
+    <form action="" class="wrapper">
+        <legend>Bundle & Save</legend>
+        <fieldset id="fieldset_1">
+            <input type="radio" id="button_1" name="button" class="radio-btn" value="1"/>
+            <label for="button_1" id="label_1" class="container">
+                <section style="float: left;">
+                    <b>1 Pair</b>
+                    <b>DKK 195.00</b>
+                </section>
+                <section style="align-items: end;">
+                    <b>50% OFF</b>
+                </section>
+                <section id="parent_1">
+                </section>
+                    
+            </label>
+        </fieldset>
+         <fieldset id="fieldset_2">
+            <input type="radio" id="button_2" name="button" class="radio-btn" value="2" />
+            <label for="button_2" id="middle" class="container">
+            <section style="float: left;">
+                <b>2 Pair</b>
+                 <b>DKK 345.00</b>
+                    
+            </section> 
+            <section>
+                <del>DKK 195.00</del>                  
+            </section> 
+            
+            <section style="align-items: end;">
+                <b style="font-size: 14px;font-weight: 600;color: #166650;">Most Popular</b>
+                <b>40% OFF</b>
+            </section> 
+            <section id="parent_2">
+            </section>
+            </label>
+        </fieldset>
+        <fieldset id="fieldset_3">
+            <input type="radio" id="button_3" name="button" class="radio-btn" value="3"/>
+            <label for="button_3" class="container">
+                <section >
+                <b>3 Pair</b>
+                <b>DKK 528.00</b>
+            </section> 
+            <section style="align-items: end;">
+                <b>60% OFF</b>
+            </section> 
+            <section id="parent_3">
+            </section>
+        </label>
+        </fieldset> 
+        <section>
+            <b style="float: left;font-size: 14px;color: #166650;">Free 2 Day Shipping</b>
+            <b style="float: right;font-size: 14px;">Total: <b>DKK 360.00</b></b>
+        </section>
+        <button class="add">+ Add to Cart</button>
+        <small style="float: right;font-size: 10px;">&copy Powered by Pumper</small>
+    </form>
+    <table id="child"> 
+        <thead>
+            <th> </th>
+            <th>Size</th>
+            <th>Colour</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>#1</td>
+                <td>
+                    <select name="Size" class="dropdown">
+                        <option value="default">S</option>
+                        <option value="M">M</option>
+                        <option value="M">L</option>
+                        <option value="M">XL</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="Colour" class="dropdown">
+                        <option value="default">Colour</option>
+                        <option value="Mint">Mint</option>
+                        <option value="Lemon">Lemon</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+    
+                </td>
+            </tr>
+            <tr>
+                <td>#2</td>
+            <td>
+                <select name="Size" class="dropdown">
+                    <option value="default">S</option>
+                    <option value="M">M</option>
+                    <option value="M">L</option>
+                    <option value="M">XL</option>
+                </select>
+            </td>
+            <td>
+                <select name="Colour" class="dropdown">
+                    <option value="default">Colour</option>
+                    <option value="Mint">Mint</option>
+                    <option value="Lemon">Lemon</option>
+                    <option value="yellow">Yellow</option>
+                </select>
+    
+            </td>
+            </tr>
+            
+        </tbody> 
+        </table>
+</section>
+
+<script src="./index.js"></script>
+</body>
+
+</html>
